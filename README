@@ -1,0 +1,16 @@
+# Goal:
+
+1. download file from a source: TODO: adjust so this works with API source
+    a. EDA with **spark**? using notebooks?
+2. converts to parquet files and saves to s3
+3. converts to **Iceberg** tbl
+    a. might need to learn how to use catalog
+4. kimbal model this dataset -> fct/dim and apply metrics
+5. try out Iceberg features
+   1. partition compaction
+   2. schema evolutions
+6. orchestrate with a tool? **Dagster**? the ETL process
+7. apply simple linear regression using SparkML
+8. visualise this data with Preset OR Grafana
+9. (optional) Amundsen
+10. 
